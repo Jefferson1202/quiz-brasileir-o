@@ -7,7 +7,7 @@ O wireframe deste projeto considera não apenas computadores pessoais, mas tambe
 Você conhece tudo sobre o brasileirão?
 - Este jogo serve para você testar todos os seus conhecimentos sobre o futebol brasileiro.
 - Para jogar é so ler enunciado clicar na alternativa que você considera certa e apertar no botão confirmar.
-img
+
 ## Pontuação 
 Cada pergunta vale 500 pontos, assim que terminar de responder todas as perguntas clique no botão salvar sua pontuação e escreva seu nome. </br>
 ![sistema de pontuação](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/imagem%20para%20md..png)
