@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/main.css">
+   <script src="./js/main.js"></script>
+
+    <title>Quiz do Brasileirão</title>
+
+</head>
+<header>
+   <h1> Quanto você sabe sobre o brasileirão?</h1> 
+</header>
+<hr>
+
+<body>
+
+    <div id="card">
+        <div class="container">
+            <img src="./img/card 1.jpg">
+              
+               <h3>01-Em 1983 ocorreu a maior goleada do Brasileirão, qual foi o resultado?</h3>
+                <input type="radio"  NAME="10x1"id="card-1primeira" > 10 x 1
+                <input type="radio"  NAME="10x1"id="card-1segunda"  > 9  X 2
+                <input type="radio"  NAME="10x1"id="card-1terceira" > 8  X 0
+            <br>
+            <button onclick="verificar_resposta1()"  id="responder">Confirmar</button><br>
+            <p id="SP"><span id="respVerificada1"></span></p>
+           
+        </div>
+        
+    </div>
+
+    <div id="card2">
+        <div class="container">
+            <img src="./img/card2.jpg">
+            <h3>02-No ano de 1979 um time se tornou campeão de forma invicta, qual foi?</h3>
+           
+                <input type="radio"  NAME="Internacional"id="card-2primeira"> Corinthians
+                <input type="radio"  NAME="Internacional"id="card-2segunda" > Sport
+                <input type="radio"  NAME="Internacional"id="card-2terceira"> Internacional
+            
+                <br>
+            
+                <button onclick="verificar_resposta2()"  id="responder">Confirmar</button><br>
+                 <p id="SP"><span id="respVerificada2"></span></p>
+        </div>
+    </div> 
+    
+    <div id="card3">
+        <div class="container">
+            <img src="./img/card3.jpg">
+            
+            <h3>03-A partir de que ano o campeonato adotou o sistema de pontos corridos?</h3>
+            
+                <input type="radio"  NAME="2003"id="card-3primeira" > 2003
+                <input type="radio"  NAME="2003"id="card-3segunda"  > 2005
+                <input type="radio"  NAME="2003"id="card-3terceira" > 2002
+            <br>
+            
+            <button onclick="verificar_resposta3()"  id="responder"><strong>Confirmar</strong></button><br>
+            <p id="SP"><span id="respVerificada3"></span></p>
+     
+        </div>
+    </div>         
+
+    <div id="card4">
+        <img src="./img/card4.jpg">
+        <div class="container">
+            <h3>04-Qual é o maior campeão do campeonato?</h3>
+            
+                <input type="radio"  NAME="Palmeiras" id="card-4primeira" > Flamengo
+                <input type="radio"  NAME="Palmeiras" id="card-4segunda"  > Palmeiras
+               
+                <input type="radio"  NAME="Palmeiras" id="card-4terceira" > São Paulo
+            <br>
+            <button onclick="verificar_resposta4()"  id="responder"><strong>Confirmar</strong></button><br>
+            <p id="SP"><span id="respVerificada4"></span></p>
+           
+        </div>
+    </div>
+    
+    <div id="card5">
+        <div class="container">
+            <img src="./img/card8.jpg">
+        <h3> 05-Qual é o técnico que mais vezes foi campeão?</h3>
+            
+                <input type="radio"  NAME="Luxemburgo"id="card-5primeira" > Felipão
+                <input type="radio"  NAME="Luxemburgo"id="card-5segunda"  > Luxemburgo
+                <input type="radio"  NAME="Luxemburgo"id="card-5terceira" > Tite
+            <br>
+            <button onclick="verificar_resposta5()"  id="responder"><strong>Confirmar</strong></button><br>
+            <p id="SP"><span id="respVerificada5"></span></p>
+        </div>
+    </div>  
+    
+    <div id="card6">
+        <div class="container">
+            <img src="./img/card6.jpg">
+        <h3>06-Qual é o estado com o maior número de títulos?</h3>
+           
+                <input type="radio"  NAME="São Paulo" id="card-6primeira" > Rio de Janeiro
+                <input type="radio"  NAME="São Paulo" id="card-6segunda"  > Bahia
+                <input type="radio"  NAME="Sao Paulo" id="card-6terceira" > São Paulo
+                
+               <br>
+               <button onclick="verificar_resposta6()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada6"></span></p>
+        </div>
+    </div>    
+    <div id="card7">
+        <div class="container">
+            <img src="./img/card7.png">
+        <h3>07-Qual desses times nunca foi rebaixado para a série B do Brasileirão?</h3>
+           
+                <input type="radio"  NAME="São Paulo" id="card-7primeira"  > Chapecoense
+                <input type="radio"  NAME="São Paulo" id="card-7segunda"   > São Paulo
+                <input type="radio"  NAME="São Paulo" id="card-7terceira"  > Cruzeiro
+                
+               <br>
+               <button onclick="verificar_resposta7()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada7"></span></p>
+        </div>
+    </div>   
+    
+    
+    <div id="card8">
+        <div class="container">
+            <img src="./img/card5.jpg">
+        <h3>08-Quem foi o Campeão do Brasileirão 2019?</h3>
+           
+                <input type="radio"  NAME="Flamengo" id="card-8primeira"  > Flamengo
+                <input type="radio"  NAME="Flamengo" id="card-8segunda"   > Palmeiras
+                <input type="radio"  NAME="Flamengo" id="card-8terceira"  > Corinthians
+                
+               <br>
+               <button onclick="verificar_resposta8()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada8"></span></p>
+        </div>
+    </div> 
+
+    <div id="card9">
+        <div class="container">
+            <img src="./img/card9.jpg">
+        <h3>09-Em 1971 foi disputado o primeiro Campeonato Brasileiro, quem foi o campeão desse ano?</h3>
+           
+                <input type="radio"  NAME="Atletico MG" id="card-9primeira"  > Bahia
+                <input type="radio"  NAME="Atletico MG" id="card-9segunda"   > Palmeiras
+                <input type="radio"  NAME="Atletico MG" id="card-9terceira"  > Atletico MG
+                
+               <br>
+               <button onclick="verificar_resposta9()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada9"></span></p>
+        </div>
+    </div>    
+    
+    <div id="card10">
+        <div class="container">
+            <img src="./img/card10.jpg">
+        <h3>10-Qual desses times já foi campeão brasileiro?</h3>
+           
+            <input type="radio"    NAME="Guarani"  id="card-10primeira"  > Guarani   
+              <input type="radio"  NAME="Guarani"  id="card-10segunda"   > Ponte Preta 
+              <input type="radio"  NAME="Guarani"  id="card-10terceira"  > Nautico 
+            
+                
+               
+               <br> 
+               <button onclick="verificar_resposta10()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada10"></span></p>
+        </div>
+    </div>    
+    
+    <div id="card11">
+        <div class="container">
+            <img src="./img/card11.jpg">
+        <h3>11-Qual clube esta 49 anos ano sem conquistar o Brasileirão?</h3>
+           
+                <input type="radio"  NAME="Atletico-MG" id="card-11primeira"  > Atletico MG
+                <input type="radio"  NAME="Atletico-MG" id="card-11segunda"   > Bahia
+                <input type="radio"  NAME="Atletico-MG" id="card-11terceira"  > Nautico
+                
+               <br>
+               <button onclick="verificar_resposta11()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada11"></span></p>
+        </div>
+    </div>    
+
+    <div id="card12">
+        <div class="container">
+            <img src="./img/card12.jpg">
+        <h3>12-Qual é o maior artilheiro da história do brasileirão?</h3>
+           
+                <input type="radio"  NAME="Roberto Dianamite" id="card-12primeira"  > Zico
+                <input type="radio"  NAME="Roberto Dianamite" id="card-12segunda"   > Pelé
+                <input type="radio"  NAME="Roberto Dianamite" id="card-12terceira"  > Roberto Dianamite
+                
+               <br>
+               <button onclick="verificar_resposta12()"  id="responder"><strong>Confirmar</strong></button><br>
+               <p id="SP"><span id="respVerificada12"></span></p>
+            
+        </div>
+    </div>    
+    <div id="card13">
+        <div class="container">
+          
+      
+            <h4 id="pontuaçao">Sua pontuação foi de: <br> <span id="pontuaçaoquiz"> </span> pontos</h4>
+                
+                <button  type="submit"  onclick="novoRecord()" id="MG"><strong>Salvar Pontuação</strong> </button>
+                 <span id="pontuaçaoquiz"> <span>
+             <button id="teste"  onClick="refreshPage()"><strong>Refazer Quiz</strong> </button>
+                
+            
+        </div>
+    </div>    
+
+
+    
+    
+
+    
+    
+</body>
+</html>
