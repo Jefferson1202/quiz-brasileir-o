@@ -2,7 +2,7 @@
 Trabalho individual de lima para fechamento do primeiro semestre do curso de desenvolvimento de sistemas do SENAI.
 ## Wireframe
 O wireframe deste projeto considera não apenas computadores pessoais, mas tambem dispositivos móveis.
-![Wireframe](quizwireframejogo.jpg)
+![Wireframe](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/Jogo.png)
 ## Manual do Jogo
 Você conhece tudo sobre o brasileirão?
 - Este jogo serve para você testar todos os seus conhecimentos sobre o futebol brasileiro.
