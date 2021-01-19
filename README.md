@@ -10,7 +10,7 @@ Você conhece tudo sobre o brasileirão?
 img
 ## Pontuação 
 Cada pergunta vale 500 pontos, assim que terminar de responder todas as perguntas clique no botão salvar sua pontuação e escreva seu nome.
-img
+![sistema de pontuação](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/imagem%20para%20md..png)
 - Caso o jogador acerte a pergunta irá aparecer um feedback, veja abaixo.
 img
 - Caso o jogador erre a pergunta irá aparecer esta mensagem, veja abaixo.
