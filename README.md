@@ -13,7 +13,7 @@ Cada pergunta vale 500 pontos, assim que terminar de responder todas as pergunta
 ![sistema de pontuação](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/imagem%20para%20md..png)
 - Caso o jogador acerte a pergunta irá aparecer um feedback, veja abaixo.
 ![mensagem alternativa correta]()
-- Caso o jogador erre a pergunta irá aparecer esta mensagem, veja abaixo.
+- Caso o jogador erre a pergunta irá aparecer esta mensagem, veja abaixo. </br>
 ![mensagem alternativa errada](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/errou.png)
 
 ## Bora jogar?
