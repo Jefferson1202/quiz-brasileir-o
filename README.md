@@ -5,15 +5,15 @@ O wireframe deste projeto considera não apenas computadores pessoais, mas tambe
 ![Wireframe](quizwireframejogo.jpg)
 ## Manual do Jogo
 Você conhece tudo sobre o brasileirão?
-- Este jogo testa todos os seus conhecimentos sobre o futebol brasileiro.
-- Para jogar é so ler enunciado clicar na alternativa que vc considera certa e apertar no botão confirmar.
+- Este jogo serve para você testar todos os seus conhecimentos sobre o futebol brasileiro.
+- Para jogar é so ler enunciado clicar na alternativa que você considera certa e apertar no botão confirmar.
 img
 ## Pontuação 
-Cada pergunta vale 500 pontos, assim que terminar de responder todas as perguntas clique no botão salvar sua pontuação e escreva sue nome.
+Cada pergunta vale 500 pontos, assim que terminar de responder todas as perguntas clique no botão salvar sua pontuação e escreva seu nome.
 img
-- Caso o usario acerte a pergunta irá aparecer um feedback,veja abaixo.
+- Caso o jogador acerte a pergunta irá aparecer um feedback, veja abaixo.
 img
-- Caso o usuaari erre a pergunta irá aparecer esta mensagem, veja abaixo.
+- Caso o jogador erre a pergunta irá aparecer esta mensagem, veja abaixo.
 img
 
 ## Bora jogar?
