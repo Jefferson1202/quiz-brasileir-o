@@ -17,7 +17,7 @@ Cada pergunta vale 500 pontos, assim que terminar de responder todas as pergunta
 ![mensagem alternativa errada](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/errou.png)
 
 ## Bora jogar?
-Clique no link abaixo e você sera direcionado para o jogo.
 
-- 
+Clique no link abaixo e você sera direcionado para o jogo.
+-  https://jefferson1202.github.io/quiz-brasileirao/quizdobrasileirao/
 
