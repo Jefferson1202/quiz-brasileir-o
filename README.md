@@ -12,9 +12,9 @@ img
 Cada pergunta vale 500 pontos, assim que terminar de responder todas as perguntas clique no botão salvar sua pontuação e escreva seu nome.
 ![sistema de pontuação](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/imagem%20para%20md..png)
 - Caso o jogador acerte a pergunta irá aparecer um feedback, veja abaixo.
-img
+![mensagem alternativa correta]()
 - Caso o jogador erre a pergunta irá aparecer esta mensagem, veja abaixo.
-img
+![mensagem alternativa errada](https://github.com/Jefferson1202/quiz-brasileirao/blob/main/errou.png)
 
 ## Bora jogar?
 Clique no link abaixo e você sera direcionado para o jogo.
